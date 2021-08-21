@@ -1,3 +1,5 @@
+// III. Data Accessing and manipulation from Arrays.
+
 // 1. Adding and removing elements from an array.
 const hobbiesArray = ['cooking', 'cricket', 'singing'];
 hobbiesArray.push('instruments'); // pushes the value to the end of the array

@@ -10,10 +10,10 @@
 
 // What is an Iterable?
 
-// Iterbles are objects that implement the iterable protocol and that have the
+// Iterables are objects that implement the iterable protocol and that have the
 // @@iterator method - Symbol.iterator,
 // in other words, we can use the for-of loops on an iterable
-// Note:: NOT EVERY ITERABLE ARE ARRAYS!!
+// Note:: NOT EVERY ITERABLES ARE ARRAYS!!
 // For e.g. NodeList, String, Map, Set are ITERABLES that are not ARRAYS.
 
 // Array-Like Objects?
@@ -23,5 +23,4 @@
 
 /**
  * Arrays in Javascript have additional functionality that can be used which cannot be performed on an iterable or an array like object
- *
  */
