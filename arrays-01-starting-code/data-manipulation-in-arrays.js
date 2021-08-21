@@ -11,6 +11,7 @@ console.log(poppedElement);
 hobbiesArray.unshift('dancing'); // unshift() adds element to the start of the array and returns the new length of the array.
 console.log(hobbiesArray);
 
+// removes the firstElement from the array and returns it.
 const firstElement = hobbiesArray.shift();
 console.log(hobbiesArray);
 console.log('removed first element', firstElement);

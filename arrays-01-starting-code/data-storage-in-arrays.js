@@ -1,6 +1,7 @@
 // II. Data Storage within Arrays.
 
 // 1. Data of same type - Numbers, Strings, Object etc.
+// Array of strings.
 const sameTypeArray = ['Item1', 'Item2', 'Item3', 'Item4'];
 console.log(sameTypeArray);
 
@@ -16,13 +17,9 @@ console.log(differentTypeArray);
 // 3. Arrays inside an array - nested arrays
 const nestedArray = [[1, 2], [3, 4], [5, 6], 99];
 
-// Accessing nested arrays
-for (const data of nestedArray) {
-  if (data.length >= 2) {
-    for (const dataPoint of data) {
-      console.log(dataPoint);
-    }
-  } else {
-    console.log(data);
+// To access all values from a nested array
+for (const data of nesterArray) {
+  for (const innerData of data) {
+    console.log(innerData);
   }
 }
