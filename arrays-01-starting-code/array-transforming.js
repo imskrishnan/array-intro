@@ -6,3 +6,9 @@ const numbersTimes10 = numbers.map((number, index, numbers) => {
 });
 
 console.log(numbersTimes10);
+
+// sorting
+const unsortedNumbers = [9, 10, 6, 1, 3, 8];
+unsortedNumbers.sort((a, b) => {
+  return a > b ? 1 : a === b ? 0 : a < b ? -1 : 0;
+});
